@@ -1,0 +1,42 @@
+
+.sidebar{
+    font-family: Roboto, sans-serif;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 130px;
+    padding-top: 3px;
+    padding-left: 7px;
+}
+.sidebar-img-container{
+    flex: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2px;
+    cursor: pointer;
+    font-size: 1px;
+    font-weight: 500;
+}
+.sidebar-img-container:hover{
+    background-color: rgb(206, 206, 206);
+}
+.sidebar-img{
+    width: 24px;
+    height: 35px;   
+}
+.sidebar-img-note{
+    margin-top: 0;
+}
+.yt-music-note{
+    margin-top: 0;
+    margin-left: 18px; 
+}
